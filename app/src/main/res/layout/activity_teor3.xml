@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8C1C1"
+    tools:context=".TeorActivity3">
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="92dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="goBack"
+        android:text="Артқа"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="548dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Есептер, дәрежелер, түбірлер"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="10"
+                android:text="Көптеген операциялар мен бөлшектермен сандық есептеулерді орындаған кезде келесі ұсыныстарды орындаған жөн:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ондық бөлшектерді жай бөлшектерге түрлендіру (яғни. алымы мен бөлгіші барлар). Бүкіл өрнекті бірден есептеуге тырыспаңыз. Есептерді бір-бір қадаммен орындаңыз. Бұл ретте мынаны есте сақтаңыз: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	алдымен жақшадағы амалдарды орындау;"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	содан кейін өнімдерді және/немесе бөлімдерді санау;"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	содан кейін қосынды немесе азайту;"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	және ақырында, егер ол көп қабатты бөлшек болса, қазірдің өзінде толығымен жеңілдетілген алым толығымен жеңілдетілген бөлгішке бөлінеді;"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	сонымен қатар жақшадағы амалдарды орындай отырып, олар да сол реттілікпен орындалады, алдымен жақша ішіндегі туындылар немесе бөлімдер, содан кейін жақшадағы қосу немесе азайту, ал жақшаның ішінде басқа жақша болса, онда ондағы әрекеттер алдымен орындалады. бәрі."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Қорқынышты сандарды» көбейтуге және бөлуге асықпаңыз. Сірә, келесі әрекеттердің бірінде бір нәрсе азаяды. Оны азайтуды жеңілдету үшін сандарды жай көбейткіштерге бөлуге болады. Қосу және азайту кезінде бүкіл бөлікті бөлшекпен бөлектеңіз (мүмкіндігінше). Көбейту және бөлу кезінде, керісінше, бөлшекті бүтін бөлігі жоқ түрге келтіріңіз. Бөлгіштегі түбірден құтылу әдетке айналған. Бүкіл бөлгіштің үстінен түбірден құтылу үшін алым мен бөлгішті бөлгішке тең өрнекке көбейту керек. Бөлінгіштің бөлігінің үстіндегі түбірден құтылу үшін алым мен бөлгіш азайғышқа жалғанатын өрнекке көбейтіледі. Бұл жағдайда квадраттардың айырмашылығы қалыптасады ((a - b) үшін конъюгат (a + b) өрнегі және керісінше). "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Алгебралық өрнектерді түрлендіру немесе жеңілдету кезінде әрекеттер тізбегі келесідей болады:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Бөлшектенуге болатын барлық нәрсені көбейткіштерге бөліңіз."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Қысқартуға болатын барлық нәрсені азайтыңыз."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Сонда ғана ортақ белгіге әкеледі. Ешбір жағдайда бірден ортақ бөлгішке апаруға тырыспаңыз. Мысал неғұрлым алыс болса, соғұрлым қорқынышты болады."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Қайтадан көбейтіңіз және азайтыңыз."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ондық периодтық бөлшекті жай бөлшекке (алымы мен бөлімі бар) түрлендіру үшін мынаны орындау керек:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Бастапқы периодтық бөлшекте екінші периодтың алдындағы саннан сол бөлшектегі бірінші периодтың алдындағы санды алып тастап, алынған айырманы келешек жай бөлшектің алымына жаз."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Бөлгішке бастапқы бөлшектің периодында қанша цифр болса, сонша тоғызды, ондық бөлшек пен бірінші нүктенің арасында қанша цифр болса, сонша нөлді жаз."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Егер бар болса, бүкіл бөлікті ұмытпаңыз."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Осы тақырып бойынша есептерді шығарғанда, өткен тақырыптардағы көптеген мәліметтерді де есте сақтау қажет. "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8C1C1"
+    tools:context=".TeorActivity4">
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="92dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="goBack"
+        android:text="Артқа"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="548dp"
+        android:layout_marginTop="60dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Иррационал теңдеулер мен жүйелер"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Иррационал квадрат түбір теңдеулерін шешудің екі эквивалентті әдісі бар:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Эквивалентті ауысулар әдісі. Бұл жағдайда рұқсат етілген мәндер ауқымын дұрыс жазу үшін жалпы жағдайда барлық радикалды өрнектердің, сондай-ақ квадрат түбірлерге тең өрнектердің теріс еместігін талап ету қажет (егер олар алгебралық түрде болуы мүмкін болса теңдеуден өрнектеледі)."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Теңдеу-салдарға көшу әдісі. Бұл әдіс міндетті түрде алмастыру арқылы тамырларды тексеруді талап етеді."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Шынымды айтсам, иррационал теңдеулерде рұқсат етілген мәндер ауқымын дұрыс жазу кейде соншалықты қиын, тіпті егер сіз мұны істеуге тырыссаңыз да, түбірлерді ауыстыру арқылы тексерген дұрыс, әсіресе түбірлер бүтін болса."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Өте кең тараған қатеге назар аударыңыз - егер сіз келесідей теңдеуді шешсеңіз:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/form40" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Содан кейін жарамды мәндер аймағын жазу кезінде оң жақтың теріс еместігін талап ету керек, яғни шартты қою керек:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/form41" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сонымен қатар, бұл шартты рұқсат етілген мәндер аймағында қосымша қосу керек екенін түсіну керек, тіпті егер сіз мұндай теңдеуге бірнеше түрлендірулерден кейін келген болсаңыз да, тек теңдеу бастапқыда осылай болған жағдайда ғана емес. . Иррационал теңдеулерде келесі ескерту ерекше өзекті болады: бірнеше факторлардың көбейтіндісі нөлге тең болуы үшін олардың кем дегенде біреуі нөлге тең болуы керек, ал қалғандары бар. Факторлар рационал теңдеулердегідей жақшалар ғана емес, түбірлер болса, олар жиі болмауы мүмкін. Осылайша қателер пайда болады."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Егер иррационал теңдеуде түбірлер көп болса, онда бұл теңдеуді квадраттау алдында түбірлерді оңнан солға немесе керісінше ауыстырған жөн, осылайша әр жағында түбірлердің қосындысы, яғни әдейі оң өрнек алынады. . Егер қандай да бір себептермен сіз түбірлердің айырмашылығын (яғни, белгісі белгісіз өрнек) квадратқа шығаруды шешсеңіз, онда бірнеше бөгде түбірлерді алуға дайын болыңыз. Бұл жағдайда барлық түбірлерді ауыстыру арқылы тексеру қажет, өйткені рұқсат етілген мәндердің ауданын дұрыс жазу мүмкін емес."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Егер иррационал теңдеудің түбірінде түбірі болса, онда бұл теңдеуді бірнеше рет квадраттау қажет болады, ең бастысы, жоғарыда келтірілген шарттарға сәйкес, әрбір осындай құрастыру кезінде жаңа жағдайлар көбірек болатынын түсіну. рұқсат етілген мәндер аймағы үшін алуға болады. Мұндай теңдеулерде мүмкін болса, түбірлерді алмастыру арқылы тексерген дұрыс."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Иррационал теңдеулерді шешу кезінде көбінесе ауыстыруды қолдану ыңғайлы. Бұл жағдайда есте сақтау керек ең бастысы, қандай да бір теңдеуде ауыстыруды енгізгеннен кейін бұл теңдеу:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• біріншіден, қарапайым болу;"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• екіншіден, енді бастапқы айнымалыны қамтымайды."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сонымен қатар, кері ауыстыруды орындауды ұмытпау керек, яғни. жаңа айнымалының мәндерін тапқаннан кейін (алмастыру үшін), оны ауыстырудың орнына бастапқы айнымалы арқылы оның неге тең екенін жазып, бұл өрнекті ауыстыру үшін табылған мәндермен теңестіріңіз және теңдеулерді қайтадан шешіңіз. ."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Екі белгісізі бар иррационал теңдеулер жүйесін шешкенде, көбінесе стандартты схема бойынша әрекет ету жеткілікті. Атап айтқанда, теңдеулердің біріндегі айнымалылардың бірін өрнектеп, осы өрнекті басқа теңдеудегі сәйкес айнымалының орнына қойыңыз. Осыдан кейін бір белгісізі бар кейбір иррационал теңдеу алынады, содан кейін оны иррационал теңдеулерді шешудің барлық ережелерін ескере отырып шешу керек. Бірінші айнымалының мәнін оның бұрыннан табылған айнымалы мәндеріндегі өрнегі арқылы табу керек."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Айнымалылар саны көп иррационал теңдеулер жүйесін шешу кезінде ауыстыру әдісін қолдану да жеткілікті. Сондай-ақ иррационал теңдеулер жүйесін шешу кезінде айнымалыларды өзгерту әдісі жиі көмектеседі. Жүйеге айнымалылардың өзгеруін енгізгеннен кейін мынаны түсіну керек:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• біріншіден, оны қайтадан оңайлату керек;"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• екіншіден, ескі айнымалылар қанша болса, сонша жаңа айнымалылар болуы керек;"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• үшіншіден, жүйеде бұдан былай ескі айнымалылар болмауы керек;"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• төртіншіден, керісінше ауыстыруды ұмытпаңыз."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
